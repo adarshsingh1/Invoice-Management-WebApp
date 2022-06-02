@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>hrc</title>
+</head>
+<body>
+  <form action="Add" style="color : blue" method="post">
+    <p>business_code:</p>
+    <input type="text" name="business_code"/>
+    <br>
+    <p>cust_number:</p>
+    <input type="number" name="cust_number"/>
+    <br>
+    <p>clear_date:</p>
+    <input type="date" name="clear_date"/>
+    <br>
+    <p>buisness_year:</p>
+    <input type="number" name="buisness_year"/>
+    <br>
+    <p>doc_id:</p>
+    <input type="text" name="doc_id"/>
+    <br>
+    <p>posting_date:</p>
+    <input type="date" name="posting_date"/>
+    <br>
+    <p>document_create_date:</p>
+    <input type="date" name="document_create_date"/>
+    <br>
+    <p>due_in_date:</p>
+    <input type="date" name="due_in_date"/>
+    <br>
+    <p>invoice_currency:</p>
+    <input type="text" name="invoice_currency"/>
+    <br>
+    <p>document_type:</p>
+    <input type="text" name="doc_type"/>
+    <br>
+    <p>posting_id:</p>
+    <input type="number" name="posting_id"/>
+    <br>
+    <p>total_open_amount:</p>
+    <input type="text" name="total_open_amount"/>
+    <br>
+    <p>baseline_create_date:</p>
+    <input type="date" name="baseline_create_date"/>
+    <br>
+    <p>cust_payment_terms:</p>
+    <input type="text" name="cust_payment_terms"/>
+    <br>
+    <p>invoice_id:</p>
+    <input type="text" name="invoice_id"/>
+    <br>
+ 
+    <input type="submit"/>
+  </form>
+<form action="Fetch">
+
+	<button>show data</button>
+	
+</form>
+
+<form action="Edit">
+<p>sl_no:</p>
+    <input type="number" name="sl_no"/>
+    <br>
+    <p>invoice_currency:</p>
+    <input type="text" name="invoice_currency"/>
+    <br>
+    <br>
+    <p>cust_payment_terms:</p>
+    <input type="text" name="cust_payment_terms"/>
+    <br>
+	<input type ="submit" value="update">
+	
+</form>
+
+<form action="Delete">
+<p>sl_no:</p>
+    <input type="number" name="sl_no"/>
+    <input type ="submit" value="Delete">
+</form>
+</body>
+</html>
